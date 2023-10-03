@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    background: no-repeat;
+    background: fixed;
+    background-size: cover; 
+    background-image: url(../img/photo_2023-10-02_16-47-53.jpg);
+
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.card-title,
+.card-phone {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+.input_block {
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.7;
+    background: rgb(100, 100, 99);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+input {
+    /* background: transparent; */
+    border-radius: 10px;
+    margin: 6px;
+    padding: 0 10px;
+    color: white;
+}
+
+.button {
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+}
+
+.button:hover {
+    background: #000;
+}
+
+.card-delete,
+.card-edit {
+    color: white;
+    margin: 10px 30px;
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+button:hover {
+    background: #000;
+}
+
+.image_card {
+    width: 60%;
+    height: 100%;
+    border-radius: 40%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.wrapper__card_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.card::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://s00.yaplakal.com/pics/pics_original/5/0/6/17827605.jpg);
+    background-size: cover;
+    filter: blur(4px);
+    position: absolute;
+    z-index: -1;
+}
